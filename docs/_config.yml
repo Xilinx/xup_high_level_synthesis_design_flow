@@ -1,0 +1,7 @@
+title: CCC
+description:  CCC定制计算算法实现
+show_downloads: true
+google_analytics: UA-190340802-1
+theme: jekyll-theme-dinky
+include: [ 'contributing.md']
+# baseurl: '/ccc'
