@@ -1,0 +1,14 @@
+docs_list_title: appendix_sidebar
+docs:
+  
+- title: Lab 1
+  url: Lab1.html
+
+- title: Lab 2
+  url: Lab2.html
+
+- title: Lab 3
+  url: Lab3.html
+
+- title: Lab 4
+  url: Lab4.html
