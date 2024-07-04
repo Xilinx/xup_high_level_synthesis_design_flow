@@ -1,0 +1,5 @@
+{
+  "name": "Sobel Vision Library",
+  "description": "This example illustrates the Vision Library version of sobel.",
+  "hls": {"config": "hls_config.cfg"}
+}

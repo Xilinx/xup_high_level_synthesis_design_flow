@@ -1,0 +1,6 @@
+{
+    "name": "fir_base",
+    "description": "This example illustrates the baseline code.",
+    "hls": {"config": "hls_config.cfg"}
+  }
+  

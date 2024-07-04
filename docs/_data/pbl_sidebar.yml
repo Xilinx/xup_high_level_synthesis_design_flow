@@ -1,0 +1,18 @@
+docs_list_title: appendix_sidebar
+docs:
+
+- title: Introduction
+  url: pbl.html
+
+- title: Fir
+  url: fir.html
+
+- title: Sobel
+  url: sobel.html
+
+- title: Convolution Filter
+  url: convolution_filter.html
+
+- title: Matrix Multiplication
+  url: matmult.html
+

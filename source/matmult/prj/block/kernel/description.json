@@ -1,0 +1,5 @@
+{
+  "name": "block",
+  "description": "This example illustrates the block optimization of matrix multiplication.",
+  "hls": {"config": "hls_config.cfg"}
+}
