@@ -18,7 +18,7 @@
 <body>
     <nav>
         <div class="logo">
-            <a href="https://www.xilinx.com/support/university.html"><center><img alt="" src="assets/images/TLogoW.png" style="display: block" width="120px" border="0"></center></a>
+            <a href="https://www.amd.com/en/corporate/university-program.html"><center><img alt="" src="assets/images/amd_logo.png" style="display: block" width="120px" border="0"></center></a>
         </div>
         <label for="btn" class="icon">
         <span class="fa fa-bars"></span>
@@ -27,10 +27,22 @@
         <ul class="navbar-ul">
             <li class="listedpages "><a style="color:white; " href="index.html "><div align="center">Home</div></a></li>
             <li class="listedpages "><a style="color:white; " href="presentations.html "><div align="center">Presentations</div></a></li>
+
             <li><label for="btn-4" class="show ">HLS Design Flow</label></li>
             {% for item in site.data.lab_sidebar.docs %}
             <li class="listedpages "><a style="color:white; " href="{{ item.url }} ">{{ item.title }}</a></li>
-            {% endfor %}            
+            {% endfor %}
+            
+            <li><label for="btn-4" class="show ">Project-Based</label></li>
+            {% for item in site.data.pbl_sidebar.docs %}
+            <li class="listedpages "><a style="color:white; " href="{{ item.url }} ">{{ item.title }}</a></li>
+            {% endfor %}
+            
+            <li><label for="btn-1 " class="show ">Appendix </label></li>
+            {% for item in site.data.appendix_sidebar.docs %}
+            <li class="listedpages"><a style="color:white; " href="{{ item.url }} ">{{ item.title }}</a></li>
+            {% endfor %}
+            
         </ul>
     </nav>
 

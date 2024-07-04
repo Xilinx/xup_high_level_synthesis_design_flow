@@ -1,0 +1,5 @@
+{
+  "name": "fir_hoisting",
+  "description": "This example illustrates how to improve resource usage by removing if-else branch.",
+  "hls": {"config": "hls_config.cfg"}
+}

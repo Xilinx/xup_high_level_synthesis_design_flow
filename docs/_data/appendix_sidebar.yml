@@ -1,0 +1,7 @@
+docs_list_title: appendix_sidebar
+docs:
+  - title: Resources
+    url: resources.html
+
+  - title: Report an Issue
+    url: report_issues.html

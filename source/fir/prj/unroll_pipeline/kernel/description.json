@@ -1,0 +1,5 @@
+{
+  "name": "fir_un_pi",
+  "description": "This example illustrates how to use unroll and pipeline to improve parallelism.",
+  "hls": {"config": "hls_config.cfg"}
+}

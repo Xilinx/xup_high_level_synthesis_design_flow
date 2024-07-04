@@ -1,0 +1,5 @@
+{
+  "name": "filter2d_baseline",
+  "description": "This example shows the baseline version of filter2d.",
+  "hls": {"config": "hls_config.cfg"}
+}

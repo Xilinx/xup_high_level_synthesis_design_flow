@@ -1,0 +1,5 @@
+{
+  "name": "opt",
+  "description": "This example illustrates the optimization of sobel.",
+  "hls": {"config": "hls_config.cfg"}
+}

@@ -1,0 +1,5 @@
+{
+  "name": "baseline",
+  "description": "This example illustrates the baseline of matrix multiplication.",
+  "hls": {"config": "hls_config.cfg"}
+}
