@@ -23,7 +23,7 @@ In this section, we will understand the best practices for writing data-driven a
 <tbody>
   <tr>
     <td rowspan="2">1</td>
-    <td rowspan="2"><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/conv_filter/notebook/baseline.md">Software Implementation</a></td>
+    <td rowspan="2"><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/notebook/baseline.md">Software Implementation</a></td>
     <td>Teaching Case: Simple Convolution Filter Without Considering Boundary Conditions</td>
     <td rowspan="2">Jupyter Notebook</td>
   </tr>
@@ -37,7 +37,7 @@ In this section, we will understand the best practices for writing data-driven a
     <td rowspan="7">AMD Vitis HLS 2023.2</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/conv_filter/notebook/kernel_tlp.md">TLP: Partition the Code into a Load-Compute-Store Pattern</a></td>
+    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/notebook/kernel_tlp.md">TLP: Partition the Code into a Load-Compute-Store Pattern</a></td>
   </tr>
   <tr>
     <td>TLP: Partition the Compute Blocks into Smaller Functions</td>
@@ -46,7 +46,7 @@ In this section, we will understand the best practices for writing data-driven a
     <td>TLP: Connect the Load, Compute, and Store Functions</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/conv_filter/notebook/kernel_dlp.md">DLP: Scaling/Unroll - Determine the Unroll factor</a></td>
+    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/notebook/kernel_dlp.md">DLP: Scaling/Unroll - Determine the Unroll factor</a></td>
   </tr>
   <tr>
     <td>DLP: Enable Pipelining with II = 1</td>
@@ -56,7 +56,7 @@ In this section, we will understand the best practices for writing data-driven a
   </tr>
   <tr>
     <td rowspan="3">3</td>
-    <td rowspan="3"><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/conv_filter/notebook/filter2d_all.md">System-level Integration</a></td>
+    <td rowspan="3"><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/notebook/filter2d_all.md">System-level Integration</a></td>
     <td>Create the kernel Graph and the test bench</td>
     <td rowspan="3">Jupyter Notebook</td>
   </tr>

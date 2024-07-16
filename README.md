@@ -4,7 +4,7 @@ This workshop provides participants the necessary skills to create high-level-sy
 
 The original labs have been developed to demonstarte the basic design flow on Vitis HLS. A PC running Microsoft Windows 10 professional edition is also able to run the labs. Linux machine to run the Vitis HLS tool is more recommended.
 
-The [project-based learning labs](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/docs/pbl.md) offer a straightforward, transparent, and intuitive approach to learning, with practical applications within the PYNQ framework. This includes the HLS kernel design methodology and the utilization of the Vitis Accelerated Library.
+The [project-based learning labs](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/docs/pbl.md) offer a straightforward, transparent, and intuitive approach to learning, with practical applications within the PYNQ framework. This includes the HLS kernel design methodology and the utilization of the Vitis Accelerated Library.
 
 ## Change Log
 
@@ -85,12 +85,12 @@ This lab illustrates the HLS design flow for generating IP from the Vitis™ HLS
 
 ## Projected-based Learning Labs Overview：
 
-| Project                                                                                                                  | Difficulty | Implementation       | Key Concept                                               | Interface           | Board         |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------- | -------------------- | --------------------------------------------------------- | ------------------- | ------------- |
-| [FIR](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/fir/readme.md)                        | Easy       | Hand-written         | Transferring Sequential Loops to Parallel Loops           | Memory              | PYNQ-Z2/KV260 |
-| [Sobel](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/sobel/readme.md)                    | Easy       | Vitis Vision Library | Flexible Adoption of Vitis Vision Library Level 1 Kernels | Memory/<br />Stream | PYNQ-Z2/KV260 |
-| [Convolution Filter](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/conv_filter/readme.md) | Easy       | Hand-written         | Best Practices for Data-driven Task-level Parallelism     | Stream              | PYNQ-Z2/KV260 |
-| [Matmult](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/matmult/readme.md)                | Easy       | Hand-written         | Mapping the 2D Array to Customizable Memory               | Memory              | PYNQ-Z2/KV260 |
+| Project                                                                                                                  | Difficulty | Implementation                          | Key Concept                                               | Interface           | Board         |
+| ------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------------------------------- | --------------------------------------------------------- | ------------------- | ------------- |
+| [FIR](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/readme.md)                        | Easy       | Hand-written                            | Transferring Sequential Loops to Parallel Loops           | Memory              | PYNQ-Z2/KV260 |
+| [Sobel](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/readme.md)                    | Easy       | Hand-written/<br />Vitis Vision Library | Flexible Adoption of Vitis Vision Library Level 1 Kernels | Memory/<br />Stream | PYNQ-Z2/KV260 |
+| [Convolution Filter](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/readme.md) | Easy       | Hand-written                            | Best Practices for Data-driven Task-level Parallelism     | Stream              | PYNQ-Z2/KV260 |
+| [Matmult](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md)                | Easy       | Hand-written                            | Mapping the 2D Array to Customizable Memory               | Memory              | PYNQ-Z2/KV260 |
 
 ---
 

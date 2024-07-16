@@ -18,7 +18,7 @@ The purpose of this lab is to separate the two bird sounds in the audio and get 
 <tbody>
   <tr>
     <td rowspan="2">1</td>
-    <td rowspan="2"><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/fir/notebook/fir_part1.ipynb">Software Implementation</a></td>
+    <td rowspan="2"><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/notebook/fir_part1.ipynb">Software Implementation</a></td>
     <td>Read in an audio clip and visualize the audio in the frequency domain</td>
     <td rowspan="2">Jupyter Notebook</td>
   </tr>
@@ -27,7 +27,7 @@ The purpose of this lab is to separate the two bird sounds in the audio and get 
   </tr>
   <tr>
     <td rowspan="6">2</td>
-    <td rowspan="6"><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/fir/notebook/fir_part2.ipynb">HLS Kernel Programming</a></td>
+    <td rowspan="6"><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/notebook/fir_part2.ipynb">HLS Kernel Programming</a></td>
     <td>Determine the Design Specifications</td>
     <td rowspan="6">AMD Vitis HLS 2023.2</td>
   </tr>
@@ -48,7 +48,7 @@ The purpose of this lab is to separate the two bird sounds in the audio and get 
   </tr>
   <tr>
     <td rowspan="4">3</td>
-    <td rowspan="4"><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/fir/notebook/fir_part3.ipynb">System-level Integration</a></td>
+    <td rowspan="4"><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/notebook/fir_part3.ipynb">System-level Integration</a></td>
     <td>Create the kernel Graph and the test bench</td>
     <td rowspan="4">Jupyter Notebook</td>
   </tr>
