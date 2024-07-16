@@ -8,7 +8,6 @@ This was tested on:
 
 OS: Windows 10/11 (22H2)
 Version: Vitis 2023.2
-Device: xc7z020-clg484-1
 
 ## Environment Setup
 
@@ -43,12 +42,12 @@ To utilize the examples designs, or reference the OpenCV libraries in a user tes
 
 To run the Vitis HLS script, perform the following actions:
 
-1) Place the  [run_standalone_win.tcl](../prj/vision_lib/kernel/run_standalone_win.tcl) script in the `<Path to Vitis library>/vision/L1/example/sobelfilter` directory.
+1) Place the  [run_tcl_win.tcl](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/tree/main/source/sobel/prj/vision_lib/kernel/run_tcl_win.tcl) script in the `<Path to Vitis library>/vision/L1/example/sobelfilter` directory.
 2) Open the Vitis HLS command line shell and navigate to the `<Path to Vitis library>/vision/L1/example/sobelfilter` directory
 3) Run the following command:
 
 ```
-vitis_hls -f run_hls_standalone.tcl
+vitis_hls -f run_tcl_win.tcl
 
 ```
 

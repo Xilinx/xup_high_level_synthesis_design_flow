@@ -46,7 +46,7 @@ All the labs in this PBL tutorial is divided into three parts. The first part sh
 
 ## Steps
 
-The installation process for the experimental environment requires installing AMD Vivado and Vitis HLS tools in the Linux environment, as well as connecting to the PYNQ board to run the corresponding experiments in Jupyter Notebook. The following will use Fir Lab as an example to demonstrate the experimental steps and procedures.
+The installation process for the experimental environment requires installing AMD Vivado and Vitis HLS tools in the Linux environment, as well as connecting to the PYNQ board to run the corresponding experiments in Jupyter Notebook. The following will use Fir Lab as an example to demonstrate the **tcl flow** steps and procedures.
 
 ### Part 1: Software Implementation
 

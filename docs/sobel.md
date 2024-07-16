@@ -6,15 +6,15 @@ In this section, we will focus on implementing an optimized hand-coded version o
 
 The advantages and disadvantages of the two methods are as follows:
 
-| Method                         | Advantages                                               | Disadvantages                                              |
-| ------------------------------ | -------------------------------------------------------- | ---------------------------------------------------------- |
-| **Hand-Coded Sobel**   | - Highly customizable                                    | - Time-consuming to develop and optimize                   |
-|                                | - Potential for tailored optimization for specific needs | - Requires deep knowledge of HLS and algorithm intricacies |
-| **Vitis Vision Library** | - Faster development time                                | - Less flexibility in customization                        |
-|                                | - Pre-optimized for performance                          | - Dependent on library updates                             |
-|                                | - Easier to implement                                    |                                                            |
+| Method                         | Advantages                                             | Disadvantages                                            |
+| ------------------------------ | ------------------------------------------------------ | -------------------------------------------------------- |
+| **Hand-Coded Sobel**     | Highly customizable                                    | Time-consuming to develop and optimize                   |
+|                                | Potential for tailored optimization for specific needs | Requires deep knowledge of HLS and algorithm intricacies |
+| **Vitis Vision Library** | Faster development time                                | Less flexibility in customization                        |
+|                                | Pre-optimized for performance                          | Dependent on library updates                             |
+|                                | Easier to implement                                    |                                                          |
 
-## Content 
+## Content
 
 <table border="2">
 <thead>
@@ -56,22 +56,23 @@ The advantages and disadvantages of the two methods are as follows:
 </tbody>
 </table>
 
-## Installation and Deployment of Vitis Vision Library
+## Installation and Deployment Steps
 
-1. **Installation Steps** :
+* **Hand-Coded Version**:
 
-* Detailed instructions for installing the Vitis Vision Library are provided in the accompanying [documentation](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/vision_library_guide.md).
-* Ensure all dependencies and environment settings are configured correctly.
-* Follow the configuration steps to set up the library within your development environment.
-* Verify the installation by running [run_standalone.tcl](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/run_standalone.tcl) file.
+  * Follow the Sobel [GUI flow tutorial](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/hand_coded_gui_flow.md) or the [tcl flow steps](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/docs/pbl.md) to generate the PYNQ overlay.
+  * Deploy both the hand-written HLS Sobel kernel and the Vitis Vision Library Sobel kernel onto the board.
+  * Ensure that the PYNQ framework is correctly set up to support hardware acceleration.
+  * Test the performance of both implementations within the PYNQ framework.
+  * Measure metrics such as execution time, resource utilization, and power consumption.
+  
+* **Vitis Vision Library Version** :
 
-1. **Deployment Steps** :
-
-* Follow the Sobel [GUI flow tutorial](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/sobel_gui_flow.md) or the tcl file to generate the PYNQ overlay.
-* Deploy both the Hand-Coded HLS Sobel kernel and the Vitis Vision Library Sobel kernel onto the board.
-* Ensure that the PYNQ framework is correctly set up to support hardware acceleration.
-* Test the performance of both implementations within the PYNQ framework.
-* Measure metrics such as execution time, resource utilization, and power consumption.
+  * Detailed instructions for installing the Vitis Vision Library.
+    * If you are using Windows system, please refer to this [guide](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/vision_library_win.md).
+    * If you are using Linux system, please refer to this [guide](./tutorial/vision_library_linux.md).
+  * Ensure all dependencies and environment settings are configured correctly.
+  * Follow the configuration steps to set up the library within your development environment.
 
 ---
 

@@ -1,25 +1,28 @@
 # ------------------------------------------------------------------------------
-# Vitis Vision and OpenCV Libary Path Information
+# Vitis Vision and OpenCV Library Path Information
 # ------------------------------------------------------------------------------
 set XF_PROJ_ROOT "<Your Vision Vision Library Path>/vision" 
+#Vitis Vision Libary include directory
 set OPENCV_INCLUDE "<Your OpenCV 4.4.0 Path>/include/opencv4" 
-set OPENCV_LIB "<Your OpenCV 4.4.0 Path>/lib" 	
+#OpenCV header file directory
+set OPENCV_LIB "<Your OpenCV 4.4.0 Path>/lib" 
+#OpenCV compiled library directory
 
 # ------------------------------------------------------------------------------
 # Vitis HLS Project Information
 # ------------------------------------------------------------------------------
 set PROJ_DIR "$XF_PROJ_ROOT/L1/examples/sobelfilter"
 set SOURCE_DIR "$PROJ_DIR/"
-set PROJ_NAME "sobel_xf"
+set PROJ_NAME "hls_example"
 set PROJ_TOP "sobel_accel"
 set SOLUTION_NAME "sol1"
-set SOLUTION_PART "xck26-sfvc784-2LV-c"
+set SOLUTION_PART "xc7z020-clg484-1"
 set SOLUTION_CLKP 5 
 
 # ------------------------------------------------------------------------------
 # OpenCV C Simulation / CoSimulation Library References
-#------------------------------------------------------------------------------
-set VISION_INC_FLAGS "-I$XF_PROJ_ROOT/L1/include -I$PROJ_DIR/config/ -std=c++14"
+# ------------------------------------------------------------------------------
+set VISION_INC_FLAGS "-I$XF_PROJ_ROOT/L1/include -I$PROJ_DIR/config -std=c++14"
 set OPENCV_INC_FLAGS "-I$OPENCV_INCLUDE"
 set OPENCV_LIB_FLAGS "-L $OPENCV_LIB"
 
