@@ -68,7 +68,7 @@ The installation process for the experimental environment requires installing AM
 1. Setting up the Vitis HLS and Vivado Lab Environment on a Linux Machine
 
    ```bash
-   git clone https://github.xilinx.com/Xilinx/xup_high-level-synthesis-design-flow.git
+   git clone https://github.xilinx.com/Xilinx/xup_high_level_synthesis_design_flow.git
    export LAB_WORK_DIR=`<Downloaded Github repository>`/source
    source <Vitis_install_path>/Vitis/2023.2/settings64.sh
    ```
