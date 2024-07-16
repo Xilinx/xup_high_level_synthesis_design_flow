@@ -25,10 +25,10 @@ The HLS kernel programming methodology will cover how you can first identify som
 
 | Project                                                                                                                  | Difficulty | Implementation       | Key Concept                                               | Interface           | Board         |
 | ------------------------------------------------------------------------------------------------------------------------ | ---------- | -------------------- | --------------------------------------------------------- | ------------------- | ------------- |
-| [FIR](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/fir/readme.md)                        | Easy       | Hand-written         | Transferring Sequential Loops to Parallel Loops           | Memory              | PYNQ-Z2/KV260 |
-| [Sobel](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/sobel/readme.md)                    | Easy       | Vitis Vision Library | Flexible Adoption of Vitis Vision Library Level 1 Kernels | Memory/<br />Stream | PYNQ-Z2/KV260 |
-| [Convolution Filter](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/conv_filter/readme.md) | Easy       | Hand-written         | Best Practices for Data-driven Task-level Parallelism     | Stream              | PYNQ-Z2/KV260 |
-| [Matmult](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/matmult/readme.md)                | Easy       | Hand-written         | Mapping the 2D Array to Customizable Memory               | Memory              | PYNQ-Z2/KV260 |
+| [FIR](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/readme.md)                        | Easy       | Hand-written         | Transferring Sequential Loops to Parallel Loops           | Memory              | PYNQ-Z2/KV260 |
+| [Sobel](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/readme.md)                    | Easy       | Vitis Vision Library | Flexible Adoption of Vitis Vision Library Level 1 Kernels | Memory/<br />Stream | PYNQ-Z2/KV260 |
+| [Convolution Filter](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/readme.md) | Easy       | Hand-written         | Best Practices for Data-driven Task-level Parallelism     | Stream              | PYNQ-Z2/KV260 |
+| [Matmult](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md)                | Easy       | Hand-written         | Mapping the 2D Array to Customizable Memory               | Memory              | PYNQ-Z2/KV260 |
 
 ## Lab Structure
 
@@ -46,7 +46,7 @@ All the labs in this PBL tutorial is divided into three parts. The first part sh
 
 ## Steps
 
-The installation process for the experimental environment requires installing AMD Vivado and Vitis HLS tools in the Linux environment, as well as connecting to the PYNQ board to run the corresponding experiments in Jupyter Notebook. The following will use Fir Lab as an example to demonstrate the experimental steps and procedures.
+The installation process for the experimental environment requires installing AMD Vivado and Vitis HLS tools in the Linux environment, as well as connecting to the PYNQ board to run the corresponding experiments in Jupyter Notebook. The following will use Fir Lab as an example to demonstrate the **tcl flow** steps and procedures.
 
 ### Part 1: Software Implementation
 
@@ -68,7 +68,7 @@ The installation process for the experimental environment requires installing AM
 1. Setting up the Vitis HLS and Vivado Lab Environment on a Linux Machine
 
    ```bash
-   git clone https://github.xilinx.com/Xilinx/xup_High-Level-Synthesis-Design-Flow.git
+   git clone https://github.xilinx.com/Xilinx/xup_high_level_synthesis_design_flow.git
    export LAB_WORK_DIR=`<Downloaded Github repository>`/source
    source <Vitis_install_path>/Vitis/2023.2/settings64.sh
    ```

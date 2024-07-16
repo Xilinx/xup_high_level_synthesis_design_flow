@@ -20,7 +20,7 @@ When reporting an issue provide the following information.
   - `lsb_release -a`
   - platform information
 
-Report the issue to your instructor or open a [new issue](https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/issues).
+Report the issue to your instructor or open a [new issue](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/issues).
 It is always a good idea to check previous issues in case that the issue has already been resolved.
 
 Please use the templates to provide enough information so the likelihood of getting a useful answer is higher.

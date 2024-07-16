@@ -22,7 +22,7 @@ The goal is to enhance the computation speed for matrices of size 128*128 or eve
 <tbody>
   <tr>
     <td rowspan="2">1</td>
-    <td rowspan="2"><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/matmult/notebook/matmul_part1.ipynb">Software Implementation</a></td>
+    <td rowspan="2"><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/notebook/matmul_part1.ipynb">Software Implementation</a></td>
     <td>Run a matrix multiplication in Numpy</td>
     <td rowspan="2">Jupyter Notebook</td>
   </tr>
@@ -31,7 +31,7 @@ The goal is to enhance the computation speed for matrices of size 128*128 or eve
   </tr>
   <tr>
     <td rowspan="4">2</td>
-    <td rowspan="4"><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/matmult/notebook/matmul_part2.ipynb">HLS Kernel Programming</a></td>
+    <td rowspan="4"><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/notebook/matmul_part2.ipynb">HLS Kernel Programming</a></td>
     <td>Optimize Data Access with Array Partitioning</td>
     <td rowspan="4">AMD Vitis HLS 2023.2</td>
   </tr>
@@ -46,7 +46,7 @@ The goal is to enhance the computation speed for matrices of size 128*128 or eve
   </tr>
   <tr>
     <td rowspan="3">3</td>
-    <td rowspan="3"><a href="https://github.com/Xilinx/xup_High-Level-Synthesis-Design-Flow/blob/main/source/matmult/notebook/matmul_part3.ipynb">System-level Integration</a></td>
+    <td rowspan="3"><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/notebook/matmul_part3.ipynb">System-level Integration</a></td>
     <td>Create the overlay by Integrating the IP with Zynq processing system</td>
     <td rowspan="3">Jupyter Notebook</td>
   </tr>

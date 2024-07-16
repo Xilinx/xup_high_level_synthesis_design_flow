@@ -194,7 +194,8 @@ For more information, refer to [Compiling and Installing OpenCV libraries for us
 ### Build the HLS Kernel Project
 
 ```
-Vitis_HLS -f run_standalone.tcl
+   cd $LAB_WORK_DIR/sobel/prj/vision_lib/kernel
+   vitis_hls -f run_hls_linux.tcl
 ```
 
 ---
@@ -223,7 +224,7 @@ set SOLUTION_CLKP 5
 # ------------------------------------------------------------------------------
 # OpenCV C Simulation / CoSimulation Library References
 # ------------------------------------------------------------------------------
-set VISION_INC_FLAGS "-I$XF_PROJ_ROOT/L1/include -I$PROJ_DIR/config/ -std=c++14"
+set VISION_INC_FLAGS "-I$XF_PROJ_ROOT/L1/include -I$PROJ_DIR/config -std=c++14"
 set OPENCV_INC_FLAGS "-I$OPENCV_INCLUDE"
 set OPENCV_LIB_FLAGS "-L $OPENCV_LIB"
 
