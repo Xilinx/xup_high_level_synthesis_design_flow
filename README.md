@@ -8,9 +8,9 @@ The [project-based learning labs](https://github.com/Xilinx/xup_high_level_synth
 
 ## Change Log
 
-2024 : Add the new Project-based Learning Section, upgrade the tool version to 2023.2, adding support for KV260 Board, Jupyter Notebooks and tutorial sources for PYNQ-Z2 and KV260 under PYNQ framework has finished initial release
+2024 : Add the new Project-based Learning Section, upgrade the tool version to **2023.2**, adding support for KV260 Board, Jupyter Notebooks and tutorial sources for PYNQ-Z2 and KV260 under PYNQ framework has finished initial release
 
-2022 : Upgrade the tool version to Vitis HLS 2021.2, adding support for Boolean board. At this time, tutorial sources and docs for PYNQ-Z2 and PYNQ-ZU has finished initial release.
+2022 : Upgrade the basic labs to Vitis HLS **2021.2**, adding support for Boolean board. At this time, tutorial sources and docs for PYNQ-Z2 and PYNQ-ZU has finished initial release.
 
 ## Source Files Setup
 
@@ -26,9 +26,9 @@ For Windows machine, the absolute path for the source code should only contain a
 
 **NOTE**
 
-Board support for the and PYNQ-Z2 and PYNQ-ZU are not included in Vitis 2021.2 by default.
+Board support for the and PYNQ-Z2 and PYNQ-ZU are not included in Vitis by default.
 
-<Vivado_2021_2_installation>/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ on Linux, and <Vivado_2021_2_installation>\\data\\xhub\\boards\\XilinxBoardStore\\boards\\Xilinx\\ on Windows machine
+<Vivado_installation>/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ on Linux, and <Vivado_installation>\\data\\xhub\\boards\\XilinxBoardStore\\boards\\Xilinx\\ on Windows machine
 
 These files can be downloaded from
 
@@ -59,11 +59,24 @@ When creating Vitis and Vivado projects, targeting to the parts to specify the d
 Please refer to the following link to get started on PYNQ-ZU:
 https://github.com/Xilinx/PYNQ-ZU/blob/master/docs/getting_started.md
 
-**KV260:**
+**KV260:** 
 
-## Basic Labs Overview:
+Please refer to the following link to get started on Kria-Som：
 
 ---
+
+## Projected-based Learning Labs Overview：
+
+| Project                                                                                                                  | Difficulty | Implementation                          | Key Concept                                               | Interface           | Board         |
+| ------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------------------------------- | --------------------------------------------------------- | ------------------- | ------------- |
+| [FIR](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/readme.md)                        | Easy       | Hand-written                            | Transferring Sequential Loops to Parallel Loops           | Memory              | PYNQ-Z2/KV260 |
+| [Sobel](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/readme.md)                    | Easy       | Hand-written/<br />Vitis Vision Library | Flexible Adoption of Vitis Vision Library Level 1 Kernels | Memory/<br />Stream | PYNQ-Z2/KV260 |
+| [Convolution Filter](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/readme.md) | Easy       | Hand-written                            | Best Practices for Data-driven Task-level Parallelism     | Stream              | PYNQ-Z2/KV260 |
+| [Matmult](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md)                | Easy       | Hand-written                            | Mapping the 2D Array to Customizable Memory               | Memory              | PYNQ-Z2/KV260 |
+
+---
+
+## Basic Labs Overview:
 
 ### Lab 1 ：Vitis HLS Design Flow
 
@@ -80,17 +93,6 @@ This lab introduces various techniques and directives which can be used in Vitis
 ### Lab 4 ：HLS Design Flow – System Integration
 
 This lab illustrates the HLS design flow for generating IP from the Vitis™ HLS tool. The generated IP is then used to create a subsystem with the Arm® processor from a Zynq® UltraScale+™ MPSoC using the Vivado® IP integrator. The hardware from the Vivado Design Suite is imported into the Vitis environment, and the FIR application is then run on the PYNQ-ZU development board.
-
----
-
-## Projected-based Learning Labs Overview：
-
-| Project                                                                                                                  | Difficulty | Implementation                          | Key Concept                                               | Interface           | Board         |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------------------------------- | --------------------------------------------------------- | ------------------- | ------------- |
-| [FIR](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/readme.md)                        | Easy       | Hand-written                            | Transferring Sequential Loops to Parallel Loops           | Memory              | PYNQ-Z2/KV260 |
-| [Sobel](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/readme.md)                    | Easy       | Hand-written/<br />Vitis Vision Library | Flexible Adoption of Vitis Vision Library Level 1 Kernels | Memory/<br />Stream | PYNQ-Z2/KV260 |
-| [Convolution Filter](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/readme.md) | Easy       | Hand-written                            | Best Practices for Data-driven Task-level Parallelism     | Stream              | PYNQ-Z2/KV260 |
-| [Matmult](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md)                | Easy       | Hand-written                            | Mapping the 2D Array to Customizable Memory               | Memory              | PYNQ-Z2/KV260 |
 
 ---
 
