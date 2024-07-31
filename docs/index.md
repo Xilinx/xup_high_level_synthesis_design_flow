@@ -1,3 +1,4 @@
+
 # High-Level-Synthesis Design Flow on ZYNQ
 
 This workshop provides participants the necessary skills to create high-level-synthesis IPs using the Vitis HLS tool flow targeting PYNQ-Z2 and PYNQ-ZU board. Various techniques and directives which can be used in Vitis HLS to improve design performance and the essential steps to create a subsystem with the Arm® processor using the Vivado® IP integrator are introduced in detail.
@@ -12,58 +13,23 @@ The [project-based learning labs](https://github.com/Xilinx/xup_high_level_synth
 
 2022 : Upgrade the basic labs to Vitis HLS **2021.2**, adding support for Boolean board. At this time, tutorial sources and docs for PYNQ-Z2 and PYNQ-ZU has finished initial release.
 
-## Source Files Setup
+## Board Setup
 
----
+|         | Board File                                                                                                                                       | Part Number         | Hardware Bring Up                                                              |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------------------------------------------------------------------ |
+| PYNQ-Z2 | [Download](https://www.xilinx.com/support/documents/university/vivado/workshops/vivado-adv-embedded-design-zynq/materials/2018x/PYNQZ2/pynq-z2.zip) | xc7z020clg400-1     | [Guide](https://pynq.readthedocs.io/en/latest/getting_started/pynq_z2_setup.html) |
+| PYNQ-ZU | [Download](https://github.com/Xilinx/XilinxBoardStore/tree/master/boards/TUL/pynqzu/1.1)                                                            | xczu5eg-sfvc784-1-e | [Guide](https://github.com/Xilinx/PYNQ-ZU/blob/master/docs/getting_started.md)    |
+| KV260   | /                                                                                                                                                | xck26-sfvc784-2LV-c | [Guide](https://docs.amd.com/r/en-US/ug1089-kv260-starter-kit/Initial-Setup)      |
 
 All the source files are located in the path of **{this_repo}/sources**
 
-For Windows machine, the absolute path for the source code should only contain ascii characters. Deep path should also be avoided since the maximum supporting length of path for Windows is 260 characters.
-
-- **{SOURCES}** refers to {this_repository}/sources, and {this_repository} is the directory on your computer where you have copied the files.
-- **{LABS}** refers to the working folder you will use for the lab projects you will create.
-- **{BOARD}** refers to the target board; PYNQ-Z2 and PYNQ-ZU
+For Windows machine, deep path should also be avoided since the maximum supporting length of path for Windows is 260 characters.
 
 **NOTE**
 
 Board support for the and PYNQ-Z2 and PYNQ-ZU are not included in Vitis by default.
 
 <Vivado_installation>/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ on Linux, and <Vivado_installation>\\data\\xhub\\boards\\XilinxBoardStore\\boards\\Xilinx\\ on Windows machine
-
-These files can be downloaded from
-
-PYNQ-Z2:[/board_files](https://www.xilinx.com/support/documents/university/vivado/workshops/vivado-adv-embedded-design-zynq/materials/2018x/PYNQZ2/pynq-z2.zip).
-
-PYNQ-ZU:[/board_files](https://github.com/Xilinx/XilinxBoardStore/tree/master/boards/TUL/pynqzu/1.1).
-
-**For Pynq-z2:**
-
-When creating Vitis and Vivado projects, targeting to the parts to specify the device, The Pynq-z2 uses a **xc7z020clg400-1** Zynq-7 device with the following attributes:
-
-| **Part Number**       | xc7z020clg400-1 |
-
-**For Pynq-ZU:**
-
-When creating Vitis and Vivado projects, targeting to the parts to specify the device, The Pynq-ZU uses a **xczu5eg-sfvc784-1-e** Zynq Ultrascale+ device with the following attributes:
-
-| **Part Number**       | xczu5eg-sfvc784-1-e |
-
-## Hardware Setup
-
----
-
-**PYNQ-Z2**: Connect the board to the PC using a micro USB cable. Make sure that a jumper is connected to JTAG (between JP1_1 and JP1_2) to use the board in the development mode. Also, make sure that another jumper is placed between J9_2 and J9_3 to select USB as a power source. The PYNQ-Z2 needs to be connected to a full power USB port to operate correctly.
-
-**PYNQ-ZU**：
-
-Please refer to the following link to get started on PYNQ-ZU:
-https://github.com/Xilinx/PYNQ-ZU/blob/master/docs/getting_started.md
-
-**KV260:** 
-
-Please refer to the following link to get started on Kria-Som：
-
----
 
 ## Projected-based Learning Labs Overview：
 
