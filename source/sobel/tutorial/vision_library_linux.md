@@ -117,7 +117,7 @@ For more information, refer to [Compiling and Installing OpenCV libraries for us
 
 ---
 
-## Step4: Creating a Standalone Vitis HLS Project - Example with Vision Library Sobel
+## Step4: Creating a Standalone Vitis HLS Project - Example with Sobel Filter
 
 ### Project Setup Steps
 
