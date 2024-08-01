@@ -1,4 +1,4 @@
-# Create and Run a Vitis Vision Library Example on Windows
+# Tutorial: Create and Run a Vitis Vision Library Example on Windows
 
 This blog will run through creating an HLS component that utilizes the Vitis Vision Library. This uses the Vitis Unified IDE. Most steps are the same if you are using Vitis Classic.
 

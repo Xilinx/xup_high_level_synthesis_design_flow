@@ -35,11 +35,11 @@ The advantages and disadvantages of the two methods are as follows:
   <tr>
     <td rowspan="2">2</td>
     <td rowspan="2">HLS Kernel Programming</td>
-    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/notebook/sobel_part2_handcoded.md">Hand-Coded Sobel HLS Kernel to Extract Image edges</a></td>
+    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/notebook/sobel_part2_handcoded.ipynb">Hand-Coded Sobel HLS Kernel to Extract Image edges</a></td>
     <td rowspan="2">AMD Vitis HLS 2023.2</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/notebook/sobel_part2_visionLib.md">Using Sobel in Vitis Vision Library to Extract Image Edges</a></td>
+    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/notebook/sobel_part2_visionLib.ipynb">Using Sobel in Vitis Vision Library to Extract Image Edges</a></td>
   </tr>
   <tr>
     <td rowspan="3">3</td>
@@ -56,11 +56,11 @@ The advantages and disadvantages of the two methods are as follows:
 </tbody>
 </table>
 
-## Installation and Deployment Steps
+## Installation and Tutorials:
 
 * **Hand-Coded Version**:
 
-  * Follow the Sobel [GUI flow tutorial](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/hand_coded_gui_flow.md) or the [tcl flow steps](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/docs/pbl.md) to generate the PYNQ overlay.
+  * Follow the Sobel [GUI flow tutorial](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/hand_coded_gui_flow.md) or the [TCL flow steps](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/docs/pbl.md) to generate the PYNQ overlay.
   * Deploy both the hand-written HLS Sobel kernel and the Vitis Vision Library Sobel kernel onto the board.
   * Ensure that the PYNQ framework is correctly set up to support hardware acceleration.
   * Test the performance of both implementations within the PYNQ framework.
@@ -70,7 +70,7 @@ The advantages and disadvantages of the two methods are as follows:
 
   * Detailed instructions for installing the Vitis Vision Library.
     * If you are using Windows system, please refer to this [guide](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/vision_library_win.md).
-    * If you are using Linux system, please refer to this [guide](./tutorial/vision_library_linux.md).
+    * If you are using Linux system, please refer to this [guide]([./tutorial/vision_library_linux.md](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/tutorial/vision_library_linux.md)).
   * Ensure all dependencies and environment settings are configured correctly.
   * Follow the configuration steps to set up the library within your development environment.
 

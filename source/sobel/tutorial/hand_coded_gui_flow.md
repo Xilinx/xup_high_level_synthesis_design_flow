@@ -1,4 +1,4 @@
-# GUI Flow Tutorial: Implementing Sobel to PYNQ Framework
+# GUI Flow Tutorial: Implementing Hand-coded Sobel Filter to PYNQ Framework
 
 ## Objective
 

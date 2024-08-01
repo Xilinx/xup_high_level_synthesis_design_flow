@@ -35,11 +35,11 @@ The advantages and disadvantages of the two methods are as follows:
   <tr>
     <td rowspan="2">2</td>
     <td rowspan="2">HLS Kernel Programming</td>
-    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/notebook/sobel_part2_handcoded.md">Hand-Coded Sobel HLS Kernel to Extract Image edges</a></td>
+    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/notebook/sobel_part2_handcoded.ipynb">Hand-Coded Sobel HLS Kernel to Extract Image edges</a></td>
     <td rowspan="2">AMD Vitis HLS 2023.2</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/notebook/sobel_part2_visionLib.md">Using Sobel in Vitis Vision Library to Extract Image Edges</a></td>
+    <td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/notebook/sobel_part2_visionLib.ipynb">Using Sobel in Vitis Vision Library to Extract Image Edges</a></td>
   </tr>
   <tr>
     <td rowspan="3">3</td>
