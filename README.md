@@ -14,11 +14,39 @@ The [project-based learning labs](https://github.com/Xilinx/xup_high_level_synth
 
 ## Board Setup
 
-|         | Board File                                                                                                                                       | Part Number         | Hardware Bring Up                                                              |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------------------------------------------------------------------ |
-| PYNQ-Z2 | [Download](https://www.xilinx.com/support/documents/university/vivado/workshops/vivado-adv-embedded-design-zynq/materials/2018x/PYNQZ2/pynq-z2.zip) | xc7z020clg400-1     | [Guide](https://pynq.readthedocs.io/en/latest/getting_started/pynq_z2_setup.html) |
-| PYNQ-ZU | [Download](https://github.com/Xilinx/XilinxBoardStore/tree/master/boards/TUL/pynqzu/1.1)                                                            | xczu5eg-sfvc784-1-e | [Guide](https://github.com/Xilinx/PYNQ-ZU/blob/master/docs/getting_started.md)    |
-| KV260   | /                                                                                                                                                | xck26-sfvc784-2LV-c | [Guide](https://docs.amd.com/r/en-US/ug1089-kv260-starter-kit/Initial-Setup)      |
+<table>
+<thead>
+    <tr>
+        <th></th>
+        <th>Board File</th>
+        <th>Part Number</th>
+        <th>Hardware Bring Up</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <th>PYNQ-Z2</th>
+    	<td><a href="https://www.xilinx.com/support/documents/university/vivado/workshops/vivado-adv-embedded-design-zynq/materials/2018x/PYNQZ2/pynq-z2.zip">Download</a></td>
+        <td>xc7z020clg400-1</td>
+        <td><a 	href="https://pynq.readthedocs.io/en/latest/getting_started/pynq_z2_setup.html">Guide</a>
+        </td>
+    </tr>
+    <tr>
+        <th>PYNQ-ZU</th>
+    	<td><a href="https://github.com/Xilinx/XilinxBoardStore/tree/master/boards/TUL/pynqzu/1.1">Download</a></td>
+        <td>xczu5eg-sfvc784-1-e</td>
+        <td><a 	href="https://github.com/Xilinx/PYNQ-ZU/blob/master/docs/getting_started.md">Guide</a>
+        </td>
+    </tr>
+    <tr>
+        <th>KV260</th>
+    	<td>Pre-installed</td>
+        <td>xck26-sfvc784-2LV-c</td>
+        <td><a 	href="https://docs.amd.com/r/en-US/ug1089-kv260-starter-kit/Initial-Setup">Guide</a>
+        </td>
+    </tr>
+</tbody>
+</table>
 
 All the source files are located in the path of **{this_repo}/sources**
 
@@ -32,14 +60,52 @@ Board support for the and PYNQ-Z2 and PYNQ-ZU are not included in Vitis by defau
 
 ## Projected-based Learning Labs Overview：
 
-| Project                                                                                                                  | Difficulty | Implementation                          | Key Concept                                               | Interface           | Board         |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------------------------------- | --------------------------------------------------------- | ------------------- | ------------- |
-| [FIR](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/readme.md)                        | Easy       | Hand-written                            | Transferring Sequential Loops to Parallel Loops           | Memory              | PYNQ-Z2/KV260 |
-| [Sobel](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/readme.md)                    | Easy       | Hand-written/<br />Vitis Vision Library | Flexible Adoption of Vitis Vision Library Level 1 Kernels | Memory/<br />Stream | PYNQ-Z2/KV260 |
-| [Convolution Filter](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/readme.md) | Easy       | Hand-written                            | Best Practices for Data-driven Task-level Parallelism     | Stream              | PYNQ-Z2/KV260 |
-| [Matmult](https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md)                | Easy       | Hand-written                            | Mapping the 2D Array to Customizable Memory               | Memory              | PYNQ-Z2/KV260 |
-
----
+<table>
+<thead>
+    <tr>
+        <th>Project</th>
+        <th>Difficulty</th>
+        <th>Implementation</th>
+        <th>Key Concept</th>
+        <th>Interface</th>
+        <th>Board</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+    	<th><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/readme.md">FIR</a></th>
+        <td>Easy</td>
+        <td>Hand-written</td>
+        <td>Transferring Sequential Loops to Parallel Loops</td>
+        <td>Memory</td>
+        <td>PYNQ-Z2/KV260</td>
+    </tr>
+    <tr>
+    	<th><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/readme.md">Sobel</a></th>
+        <td>Easy</td>
+        <td>Hand-written/<br />Vitis Vision Library</td>
+        <td>Flexible Adoption of Vitis Vision Library Level 1 Kernels</td>
+        <td>Memory/<br />Stream</td>
+        <td>PYNQ-Z2/KV260</td>
+    </tr>
+    <tr>
+    	<th><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/readme.md">Convolution Filter</a></th>
+        <td>Easy</td>
+        <td>Hand-written</td>
+        <td>Best Practices for Data-driven Task-level Parallelism</td>
+        <td>Stream</td>
+        <td>PYNQ-Z2/KV260</td>
+    </tr>
+    <tr>
+    	<th><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md">Matmult</a></th>
+        <td>Easy</td>
+        <td>Hand-written</td>
+        <td>Mapping the 2D Array to Customizable Memory</td>
+        <td>Memory</td>
+        <td>PYNQ-Z2/KV260</td>
+    </tr>
+</tbody>
+</table>
 
 ## Basic Labs Overview:
 
