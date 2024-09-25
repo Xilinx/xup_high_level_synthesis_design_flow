@@ -52,13 +52,7 @@ All the source files are located in the path of **{this_repo}/sources**
 
 For Windows machine, deep path should also be avoided since the maximum supporting length of path for Windows is 260 characters.
 
-**NOTE**
-
-Board support for the and PYNQ-Z2 and PYNQ-ZU are not included in Vitis by default.
-
-<Vivado_installation>/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ on Linux, and <Vivado_installation>\\data\\xhub\\boards\\XilinxBoardStore\\boards\\Xilinx\\ on Windows machine
-
-## Projected-based Learning Labs Overview：
+## Projected-based Learning Labs Overview
 
 <table>
 <thead>
@@ -107,7 +101,9 @@ Board support for the and PYNQ-Z2 and PYNQ-ZU are not included in Vitis by defau
 </tbody>
 </table>
 
-## Basic Labs Overview:
+---
+
+## Basic Labs Overview
 
 ### Lab 1 ：Vitis HLS Design Flow
 
