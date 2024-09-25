@@ -69,7 +69,7 @@ For Windows machine, deep path should also be avoided since the maximum supporti
 </thead>
 <tbody>
     <tr>
-    	<th><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/readme.md">FIR</a></th>
+    	<td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/fir/readme.md">FIR</a></td>
         <td>Easy</td>
         <td>Hand-written</td>
         <td>Transferring Sequential Loops to Parallel Loops</td>
@@ -77,7 +77,7 @@ For Windows machine, deep path should also be avoided since the maximum supporti
         <td>PYNQ-Z2/KV260</td>
     </tr>
     <tr>
-    	<th><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/readme.md">Sobel</a></th>
+    	<td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/sobel/readme.md">Sobel</a></td>
         <td>Easy</td>
         <td>Hand-written/<br />Vitis Vision Library</td>
         <td>Flexible Adoption of Vitis Vision Library Level 1 Kernels</td>
@@ -85,7 +85,7 @@ For Windows machine, deep path should also be avoided since the maximum supporti
         <td>PYNQ-Z2/KV260</td>
     </tr>
     <tr>
-    	<th><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/readme.md">Convolution Filter</a></th>
+    	<td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/conv_filter/readme.md">Convolution Filter</a></td>
         <td>Easy</td>
         <td>Hand-written</td>
         <td>Best Practices for Data-driven Task-level Parallelism</td>
@@ -93,7 +93,7 @@ For Windows machine, deep path should also be avoided since the maximum supporti
         <td>PYNQ-Z2/KV260</td>
     </tr>
     <tr>
-    	<th><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md">Matmult</a></th>
+    	<td><a href="https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md">Matmult</a></td>
         <td>Easy</td>
         <td>Hand-written</td>
         <td>Mapping the 2D Array to Customizable Memory</td>
