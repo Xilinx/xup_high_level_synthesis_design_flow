@@ -44,7 +44,7 @@ After completing this lab, you will be able to:
 6. In the *Source Files* window, type **matrixmul** as the *Top Function* name (the provided source file contains the function, called matrixmul, to be synthesized).
 7. Click the *Add Files…* button (which in the line of DESIGN FILES), select **matrixmul.cpp** file from the **{labs}/lab1** folder, and then click **Open**.
 8. Then we add the test file, in the next block click *Add Files…* button (which in the line of TEST BENCH FILES), select **matrixmul_test.cpp** file from the **/home/xup/hls/labs/lab1** folder and click **Open**.
-9.  Select the **matrixmul_test.cpp** in the files list window and click the *Edit CFLAG…* button, type **-DHW_COSIM**, and click **OK**. (This defines a compiler flag that will be used later.)
+9.  Select the **matrixmul_test.cpp** in the files list window and click the *Edit CFLAG…* button, type</P> **-DHW_COSIM** (there has  a "-" in here, don't forget it), and click **OK**. (This defines a compiler flag that will be used later.)
 10. Click **Next**.
     <p align="center">
     <img src ="./images/lab1_vitis/Figure3.jpg">
@@ -82,11 +82,11 @@ After completing this lab, you will be able to:
 
 ### Run C Simulation
 
-1. Select **FLOW > C Simulation > Run**, and click **OK** in the C Simulation Dialog window.</p>
+1. Select **FLOW > C Simulation > Run**.</p>
    <sub>it may be have a windows ask if Enable Code Analyzer, click **Yes, enable Code Analyzer**</sub></p>
     The files will be compiled and you will see the output in the Console window.
     <p align="center">
-    <img src ="./images/lab1/Figure6.png">
+    <img src ="./images/lab1_vitis/Figure7.jpg">
     </p>
     <p align = "center">
     <i>Program output</i>
